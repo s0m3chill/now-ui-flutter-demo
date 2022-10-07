@@ -52,16 +52,17 @@ class _ComponentsState extends State<Components> {
               ),
               SizedBox(
                 width: double.infinity,
-                child: RaisedButton(
-                  textColor: NowUIColors.white,
-                  color: NowUIColors.defaultColor,
+                child: ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                      foregroundColor: NowUIColors.white,
+                      backgroundColor: NowUIColors.defaultColor,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(4.0),
+                      )),
                   onPressed: () {
                     // Respond to button press
                     Navigator.pushReplacementNamed(context, '/home');
                   },
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(4.0),
-                  ),
                   child: Padding(
                       padding: EdgeInsets.only(
                           left: 16.0, right: 16.0, top: 12, bottom: 12),
@@ -72,16 +73,17 @@ class _ComponentsState extends State<Components> {
                 width: double.infinity,
                 child: Padding(
                   padding: const EdgeInsets.only(top: 8),
-                  child: RaisedButton(
-                    textColor: NowUIColors.white,
-                    color: NowUIColors.primary,
+                  child: ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                        foregroundColor: NowUIColors.white,
+                        backgroundColor: NowUIColors.primary,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(4.0),
+                        )),
                     onPressed: () {
                       // Respond to button press
                       Navigator.pushReplacementNamed(context, '/home');
                     },
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(4.0),
-                    ),
                     child: Padding(
                         padding: EdgeInsets.only(
                             left: 16.0, right: 16.0, top: 12, bottom: 12),
@@ -94,16 +96,17 @@ class _ComponentsState extends State<Components> {
                 width: double.infinity,
                 child: Padding(
                   padding: const EdgeInsets.only(top: 8),
-                  child: RaisedButton(
-                    textColor: NowUIColors.white,
-                    color: NowUIColors.info,
+                  child: ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                        foregroundColor: NowUIColors.white,
+                        backgroundColor: NowUIColors.info,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(4.0),
+                        )),
                     onPressed: () {
                       // Respond to button press
                       Navigator.pushReplacementNamed(context, '/home');
                     },
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(4.0),
-                    ),
                     child: Padding(
                         padding: EdgeInsets.only(
                             left: 16.0, right: 16.0, top: 12, bottom: 12),
@@ -115,16 +118,17 @@ class _ComponentsState extends State<Components> {
                 width: double.infinity,
                 child: Padding(
                   padding: const EdgeInsets.only(top: 8),
-                  child: RaisedButton(
-                    textColor: NowUIColors.white,
-                    color: NowUIColors.success,
+                  child: ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                        foregroundColor: NowUIColors.white,
+                        backgroundColor: NowUIColors.success,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(4.0),
+                        )),
                     onPressed: () {
                       // Respond to button press
                       Navigator.pushReplacementNamed(context, '/home');
                     },
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(4.0),
-                    ),
                     child: Padding(
                         padding: EdgeInsets.only(
                             left: 16.0, right: 16.0, top: 12, bottom: 12),
@@ -137,16 +141,17 @@ class _ComponentsState extends State<Components> {
                 width: double.infinity,
                 child: Padding(
                   padding: const EdgeInsets.only(top: 8),
-                  child: RaisedButton(
-                    textColor: NowUIColors.white,
-                    color: NowUIColors.warning,
+                  child: ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                        foregroundColor: NowUIColors.white,
+                        backgroundColor: NowUIColors.warning,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(4.0),
+                        )),
                     onPressed: () {
                       // Respond to button press
                       Navigator.pushReplacementNamed(context, '/home');
                     },
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(4.0),
-                    ),
                     child: Padding(
                         padding: EdgeInsets.only(
                             left: 16.0, right: 16.0, top: 12, bottom: 12),
@@ -159,16 +164,17 @@ class _ComponentsState extends State<Components> {
                 width: double.infinity,
                 child: Padding(
                   padding: const EdgeInsets.only(top: 8),
-                  child: RaisedButton(
-                    textColor: NowUIColors.white,
-                    color: NowUIColors.error,
+                  child: ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                        foregroundColor: NowUIColors.white,
+                        backgroundColor: NowUIColors.error,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(4.0),
+                        )),
                     onPressed: () {
                       // Respond to button press
                       Navigator.pushReplacementNamed(context, '/home');
                     },
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(4.0),
-                    ),
                     child: Padding(
                         padding: EdgeInsets.only(
                             left: 16.0, right: 16.0, top: 12, bottom: 12),

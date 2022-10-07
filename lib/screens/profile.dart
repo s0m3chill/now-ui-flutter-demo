@@ -2,6 +2,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:now_ui_flutter/constants/Theme.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+
 //widgets
 import 'package:now_ui_flutter/widgets/navbar.dart';
 import 'package:now_ui_flutter/widgets/drawer.dart';
@@ -184,16 +185,17 @@ class Profile extends StatelessWidget {
                   children: [
                     Padding(
                       padding: const EdgeInsets.only(right: 8.0),
-                      child: RaisedButton(
-                        textColor: NowUIColors.white,
-                        color: NowUIColors.info,
+                      child: ElevatedButton(
+                        style: ElevatedButton.styleFrom(
+                            foregroundColor: NowUIColors.white,
+                            backgroundColor: NowUIColors.info,
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(32.0),
+                            )),
                         onPressed: () {
                           // Respond to button press
                           Navigator.pushReplacementNamed(context, '/home');
                         },
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(32.0),
-                        ),
                         child: Padding(
                             padding: EdgeInsets.only(
                                 left: 12.0, right: 12.0, top: 10, bottom: 10),
